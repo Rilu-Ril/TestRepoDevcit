@@ -10,16 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var webView: UIWebView!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		if let address = URL(string: "http://www.neobis.kg") {
+			webView.loadRequest(URLRequest(url: address))
+		}
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
 }
 
