@@ -14,7 +14,9 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		if let address = URL(string: "http://www.neobis.kg") {
+			webView.loadRequest(URLRequest(url: address))
+		}
 	}
-
 }
 
