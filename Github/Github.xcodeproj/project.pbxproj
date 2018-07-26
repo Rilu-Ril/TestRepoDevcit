@@ -13,6 +13,7 @@
 		33257C95210A10CC008CD15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33257C94210A10CC008CD15C /* Assets.xcassets */; };
 		33257C98210A10CC008CD15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33257C96210A10CC008CD15C /* LaunchScreen.storyboard */; };
 		94E61824210A115B002AD655 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E61823210A115B002AD655 /* RegistrationViewController.swift */; };
+		94E61826210A131A002AD655 /* Долина реки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E61825210A131A002AD655 /* Долина реки.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		33257C97210A10CC008CD15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33257C99210A10CC008CD15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94E61823210A115B002AD655 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		94E61825210A131A002AD655 /* Долина реки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Долина реки.jpg"; path = "../../../Pictures/MailCloud/Долина реки.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				33257C91210A10CA008CD15C /* Main.storyboard */,
 				94E61823210A115B002AD655 /* RegistrationViewController.swift */,
 				33257C94210A10CC008CD15C /* Assets.xcassets */,
+				94E61825210A131A002AD655 /* Долина реки.jpg */,
 				33257C96210A10CC008CD15C /* LaunchScreen.storyboard */,
 				33257C99210A10CC008CD15C /* Info.plist */,
 			);
@@ -128,6 +131,7 @@
 				33257C98210A10CC008CD15C /* LaunchScreen.storyboard in Resources */,
 				33257C95210A10CC008CD15C /* Assets.xcassets in Resources */,
 				33257C93210A10CA008CD15C /* Main.storyboard in Resources */,
+				94E61826210A131A002AD655 /* Долина реки.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
