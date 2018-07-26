@@ -13,11 +13,19 @@
 		33257C95210A10CC008CD15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33257C94210A10CC008CD15C /* Assets.xcassets */; };
 		33257C98210A10CC008CD15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33257C96210A10CC008CD15C /* LaunchScreen.storyboard */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		94E61824210A115B002AD655 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E61823210A115B002AD655 /* RegistrationViewController.swift */; };
 		94E61826210A131A002AD655 /* Долина реки.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94E61825210A131A002AD655 /* Долина реки.jpg */; };
 =======
 		33257CA0210A16CF008CD15C /* Sanira.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33257C9F210A16CF008CD15C /* Sanira.storyboard */; };
 >>>>>>> bd10d937932d0e0dd7d2cb26838da2fcc1251fbe
+=======
+		84547A5D210A136500DAF521 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84547A5C210A136500DAF521 /* TableViewController.swift */; };
+		84547A5F210A13CF00DAF521 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84547A5E210A13CF00DAF521 /* TableViewCell.swift */; };
+=======
+		33257CA0210A16CF008CD15C /* Sanira.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33257C9F210A16CF008CD15C /* Sanira.storyboard */; };
+>>>>>>> 75e9a64be7cd0a7ad9992fadbdb006689b2b519a
+>>>>>>> b0dd95c8d2b025c796d3b6b9775de2e38739cd66
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +37,19 @@
 		33257C97210A10CC008CD15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33257C99210A10CC008CD15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		94E61823210A115B002AD655 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		94E61825210A131A002AD655 /* Долина реки.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Долина реки.jpg"; path = "../../../Pictures/MailCloud/Долина реки.jpg"; sourceTree = "<group>"; };
 =======
 		33257C9F210A16CF008CD15C /* Sanira.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sanira.storyboard; sourceTree = "<group>"; };
 >>>>>>> bd10d937932d0e0dd7d2cb26838da2fcc1251fbe
+=======
+		84547A5C210A136500DAF521 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84547A5E210A13CF00DAF521 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+=======
+		33257C9F210A16CF008CD15C /* Sanira.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sanira.storyboard; sourceTree = "<group>"; };
+>>>>>>> 75e9a64be7cd0a7ad9992fadbdb006689b2b519a
+>>>>>>> b0dd95c8d2b025c796d3b6b9775de2e38739cd66
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +86,18 @@
 				33257C8F210A10CA008CD15C /* ViewController.swift */,
 				33257C91210A10CA008CD15C /* Main.storyboard */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				94E61823210A115B002AD655 /* RegistrationViewController.swift */,
 =======
 				33257C9F210A16CF008CD15C /* Sanira.storyboard */,
 >>>>>>> bd10d937932d0e0dd7d2cb26838da2fcc1251fbe
+=======
+				84547A5C210A136500DAF521 /* TableViewController.swift */,
+				84547A5E210A13CF00DAF521 /* TableViewCell.swift */,
+=======
+				33257C9F210A16CF008CD15C /* Sanira.storyboard */,
+>>>>>>> 75e9a64be7cd0a7ad9992fadbdb006689b2b519a
+>>>>>>> b0dd95c8d2b025c796d3b6b9775de2e38739cd66
 				33257C94210A10CC008CD15C /* Assets.xcassets */,
 				94E61825210A131A002AD655 /* Долина реки.jpg */,
 				33257C96210A10CC008CD15C /* LaunchScreen.storyboard */,
@@ -157,6 +181,8 @@
 			files = (
 				94E61824210A115B002AD655 /* RegistrationViewController.swift in Sources */,
 				33257C90210A10CA008CD15C /* ViewController.swift in Sources */,
+				84547A5F210A13CF00DAF521 /* TableViewCell.swift in Sources */,
+				84547A5D210A136500DAF521 /* TableViewController.swift in Sources */,
 				33257C8E210A10CA008CD15C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

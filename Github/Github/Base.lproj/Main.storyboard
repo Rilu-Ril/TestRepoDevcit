@@ -43,6 +43,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <point key="canvasLocation" x="487" y="42"/>
         </scene>
         <!--Registration View Controller-->
@@ -69,6 +70,61 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BgW-6S-kD0"/>
                                 </constraints>
+=======
+            <point key="canvasLocation" x="-142" y="128"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="8gW-YS-4n2">
+            <objects>
+                <viewController id="iZF-Ix-PlL" customClass="TableViewController" customModule="Github" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1ur-d7-Edm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ruH-A6-PF7">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="190" id="r3T-eK-3Sd" customClass="TableViewCell" customModule="Github" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="190"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r3T-eK-3Sd" id="JL2-rF-SmD">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="189.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xy4-cM-z12">
+                                                    <rect key="frame" x="58" y="29" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLbl" destination="xy4-cM-z12" id="sdo-4L-npq"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2xi-JV-7Jl" firstAttribute="trailing" secondItem="ruH-A6-PF7" secondAttribute="trailing" id="5cK-Tn-Kf7"/>
+                            <constraint firstItem="ruH-A6-PF7" firstAttribute="leading" secondItem="2xi-JV-7Jl" secondAttribute="leading" id="6Jq-hq-bPj"/>
+                            <constraint firstItem="2xi-JV-7Jl" firstAttribute="bottom" secondItem="ruH-A6-PF7" secondAttribute="bottom" id="IRS-aZ-hh9"/>
+                            <constraint firstItem="ruH-A6-PF7" firstAttribute="top" secondItem="2xi-JV-7Jl" secondAttribute="top" id="Jhx-hD-qZv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2xi-JV-7Jl"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="ruH-A6-PF7" id="UOp-KE-Xzb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wuL-2H-9bC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="589.60000000000002" y="127.28635682158921"/>
+>>>>>>> b0dd95c8d2b025c796d3b6b9775de2e38739cd66
 =======
             <point key="canvasLocation" x="140" y="115"/>
         </scene>
@@ -178,7 +234,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e7v-5I-5RT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1001" y="115"/>
+<<<<<<< HEAD
 >>>>>>> bd10d937932d0e0dd7d2cb26838da2fcc1251fbe
+=======
+>>>>>>> 75e9a64be7cd0a7ad9992fadbdb006689b2b519a
+>>>>>>> b0dd95c8d2b025c796d3b6b9775de2e38739cd66
         </scene>
     </scenes>
 </document>
